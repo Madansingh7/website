@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px;
+    background: #373333;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #00ffcc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+h2 {
+    color: #00ffcc;
+}
+
+/* Projects */
+.project {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    
+}
+
+/* Skills */
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+ul li {
+    display: inline-block;
+    background: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Contact */
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e;
+    margin-top: 30px;
+}
